@@ -1,0 +1,11 @@
+    <button class="btn btn-primary mt-5" [disabled]="salleId===1" (click)="onPrevious()">Previous</button>
+    <button class="btn btn-warning mt-5" [disabled]="salleId===sallesLength" (click)="onNext()">Next</button>
+    <button class="btn btn-success mt-5" (click)="goBack()">Back</button>
+<div class="card-container mt-5">
+	<h4>Salle N°{{salle.id}}</h4>
+	<h2>{{salle.nom}}</h2>
+	<div class="skills">
+		<h5>Capacite :{{" "+salle.capacite}}</h5>
+	</div>
+</div>
+

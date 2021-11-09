@@ -1,0 +1,7 @@
+<div class="container box">
+  <ul *ngFor="let salle of salles">
+    <li>{{salle.nom}}
+      <a [class.touched]="isSelected(salle)" class="a" (click)="onSelect(salle.id)"
+      > Détails</a> </li>
+  </ul>
+</div>

@@ -1,0 +1,12 @@
+
+.a{
+  color: #3044f1;
+}
+.touched{
+ color:blueviolet;
+ background-color: rgb(169, 210, 233);
+}
+.box{
+  margin-top: 5rem;
+  border: 1px solid black;
+}
